@@ -243,6 +243,7 @@ display: block;
 margin: 0 auto;
 padding: 32 px 0;
 }
+
 .team-image {
 display: block;
 }
@@ -255,11 +256,12 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 margin: 0 auto;
+margin-bottom: 72px;
 }
 
 .team-list {
 display: flex;
-gap: 32px;
+gap: 24px;
 margin: 0 auto;
 }
 .team-subtitle {
@@ -314,6 +316,7 @@ display: block;
 margin: 0 auto;
 padding: 24px;
 }
+
 .portfolio-image {
 display: block;
 }
