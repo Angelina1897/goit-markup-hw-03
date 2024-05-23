@@ -291,11 +291,7 @@ color: #434455;
 
 .portfolio {
 }
-.portfolio-container {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
+
 .portfolio-title {
 font-weight: 700;
 font-size: 36px;
@@ -329,9 +325,17 @@ display: block;
 padding: 24px;
 }
 
+.container-portfolio {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+margin-bottom: 8px;
+}
+
 .portfolio-image {
 display: block;
 }
+
 .portfolio-subtitle {
 font-weight: 500;
 font-size: 20px;
