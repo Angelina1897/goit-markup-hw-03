@@ -27,7 +27,7 @@ align-items: center;
 }
 
 .container {
-width: 1158px;
+max-width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
 }
@@ -103,12 +103,6 @@ color: #404bbf;
 background-color: #2e2f42;
 padding: 120px 0;
 }
-
-.section 
-.container {
-
-}
-
 .hero-title {
     font-weight: 700;
     font-size: 56px;
@@ -151,9 +145,7 @@ margin-bottom: 48px;
 .section {
     padding: 120px 0;
 }
-.container{
-padding: 120px 0;
-}
+
 .visually-hidden {
 position: absolute;
     width: 1px;
@@ -237,9 +229,7 @@ border-bottom-left-radius:4px;
     background-color: #F4F4FD;
 }
 
-.container {
 
-}
 
 .benefits-list {
     display: flex;
@@ -299,9 +289,7 @@ margin: 0 auto;
 .portfolio {
 }
 
-.container {
 
-}
 
 .portfolio-title {
         font-weight: 700;
@@ -369,9 +357,7 @@ background-color:  #2e2f42;
 padding: 100px 0;
 }
 
-.container {
 
-}
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
