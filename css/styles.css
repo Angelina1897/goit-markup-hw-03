@@ -291,7 +291,11 @@ color: #434455;
 
 .portfolio {
 }
-
+.portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .portfolio-title {
 font-weight: 700;
 font-size: 36px;
@@ -324,11 +328,7 @@ padding left: 0px;
 display: block;
 padding: 24px;
 }
-.container_name_cat {
-padding: 32px 16px;
-border: 1px solid #e7e9fc;
-border-top: none;
-}
+
 .portfolio-image {
 display: block;
 }
