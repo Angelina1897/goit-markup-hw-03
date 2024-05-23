@@ -63,12 +63,11 @@ gap: 40px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px 0 24px;
     display: block;
 
 }
 .nav-link {
-
+padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -104,7 +103,7 @@ color: #404bbf;
 background-color: #2e2f42;
 }
 
-.container-hero-container {
+.container-hero-container{
 width: 1440px;
 align-items: center;
     padding: 188px 0;
@@ -151,7 +150,7 @@ margin-bottom: 48px;
 .benefits {
 }
 
-.container-benefits-container {
+.container-benefits-container{
 padding: 120px 0;
 }
 .visually-hidden {
@@ -368,7 +367,7 @@ background-color:  #2e2f42;
 
 .container-footer-container {
     display: flex;
-        align-items: flex-start;
+    align-items: flex-start;
     height: 312px;
     padding: 100px 1020px 100px 156px;
 
