@@ -389,6 +389,8 @@ background-color:  #2e2f42;
     padding: 100px 0;
     display: block;
     margin-right: 1020px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-part {
