@@ -28,7 +28,6 @@ align-items: center;
 
 .container {
 width: 1158px;
-height: 72px;
 padding: 0 15px;
 margin: 0 auto;
 }
@@ -68,6 +67,7 @@ gap: 40px;
 }
 .nav-link {
 padding: 24px 0;
+display: block;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -107,7 +107,7 @@ padding: 188px 0;
 .section {
 padding: 120px 0;
 }
-.container-hero-container {
+.container {
 width: 1440px;
 height: 600px;
 align-items: center;
@@ -139,7 +139,6 @@ margin-bottom: 48px;
         margin: 0 auto;
         display: block;
         border-radius: 4px;
-        margin-bottom: 188px;
         text-align: center;
         min-width: 169px;
         height: 56px;
@@ -151,6 +150,7 @@ margin-bottom: 48px;
 
 
 .benefits {
+    padding: 120px 0;
 }
 
 .container-benefits-container{
@@ -195,9 +195,7 @@ margin: 0;
 .benefits_item_first {
 width: calc((100% - 72px) / 4);
 }
-.benefits_item,
-.benefits_item_first,
-.benefits_item_last {
+.benefits_item {
         font-weight: 500;
         font-size: 20px;
         line-height: 120%;
@@ -208,11 +206,10 @@ width: calc((100% - 72px) / 4);
         padding left: 0px;
         padding: 24 px 0;
         display: block;
-        margin-right: 24px;
+        margin-right: 0px;
+        width: calc((100%-72px)/4);
 }
-.benefits_item_last {
-margin-right: 0;
-}
+
 .benefits-subtitle {
         font-weight: 500;
         font-size: 20px;
@@ -237,7 +234,7 @@ margin-right: 0;
     background-color: #F4F4FD;
 }
 
-.container-team-container {
+.container {
     height: 732px;
 padding: 120px 156px;
 }
@@ -301,7 +298,7 @@ margin: 0;
 .portfolio {
 }
 
-.container-portfolio-container {
+.container {
 padding: 120px 156px;
 margin: 120px 156px;
 }
@@ -373,7 +370,7 @@ display: block;
 background-color:  #2e2f42;
 }
 
-.container-footer-container {
+.container {
     display: flex;
     align-items: flex-start;
     height: 312px;
