@@ -162,7 +162,6 @@ position: absolute;
     height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -183,8 +182,7 @@ position: absolute;
 .benefits-list {
 display: flex;
 gap: 24px;
-margin: 0;
-    padding: 0;
+margin: 0 auto;
     border-radius: 0px 0px 4px 4px;
     border-top-left-radius: 0px; 
     border-top-right-radius: 0px; 
@@ -199,8 +197,7 @@ margin: 0;
         letter-spacing: 0.02em;
         text-align: left;
         color:#2e2f42;
-        margin: 0px;
-        padding left: 0px;
+        margin: 0 auto;
         padding: 24 px 0;
         display: block;
         margin-right: 0px;
@@ -234,7 +231,7 @@ border-bottom-left-radius:4px;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
-        margin: 0px;
+        margin: 0 auto;
         text-align: top;
 }
 
@@ -256,8 +253,7 @@ background-color: #FFFFFF;
 text-align: center; 
 padding left: 0px;
 display: block;
-margin: 0px;
-    padding left: 0px;
+margin: 0 auto;
     padding: 32 px 0;
 }
 
@@ -272,14 +268,13 @@ text-transform: capitalize;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin: 0px;
+    margin: 0 auto;
 }
 
 .team-list {
 display: flex;
 gap: 32px;
-margin: 0;
-    padding: 0;
+margin: 0 auto;
 }
 .team-subtitle {
     font-weight: 500;
@@ -299,7 +294,7 @@ margin: 0;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
-        margin: 0px;
+        margin: 0 auto;
 }
 
 
@@ -327,8 +322,7 @@ margin: 0;
 .portfolio-list {
 display: flex;
     gap: 24px;
-    margin: 0;
-        padding: 0;
+    margin: 0 auto;
 }
 
 .portfolio-item {
@@ -336,8 +330,7 @@ display: flex;
     text-align: center;
     padding left: 0px;
     display: block;
-    margin: 0px;
-    padding left: 0px;
+    margin: 0 auto;
     padding: 24px;
 }
 .portfolio-image {
@@ -362,7 +355,7 @@ display: block;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: var(--slate);
-        margin: 0px;
+        margin: 0 auto;
 }
 
 .portfolio-subtitle {font-family: var(--font-family);
