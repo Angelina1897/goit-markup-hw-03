@@ -103,7 +103,7 @@ color: #404bbf;
 background-color: #2e2f42;
 }
 
-.container {
+.container-hero-container {
 width: 1440px;
 height: 600px;
 align-items: center;
@@ -189,8 +189,12 @@ margin: 0;
     border-top-right-radius: 4px; 
     border-bottom-left-radius:4px;
 }
-
-.benefits_item {
+.benefits_item_first {
+width: calc((100% - 72px) / 4);
+}
+.benefits_item,
+.benefits_item_first,
+.benefits_item_last {
         font-weight: 500;
         font-size: 20px;
         line-height: 120%;
@@ -213,6 +217,7 @@ margin-right: 0;
         letter-spacing: 0.02em;
         color: var(--navy-blue);
         padding-bottom: 8px 0;
+        margin-bottom: 8px;
 }
 
 .benefits-text {
